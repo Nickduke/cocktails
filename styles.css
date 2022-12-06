@@ -297,3 +297,13 @@ input::placeholder {
   display: inline-block;
   margin-top: 2rem;
 }
+
+.hover-rotate h3 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hover-rotate:hover h3 {
+  transform: scale(1.2) rotate(360deg);
+}
